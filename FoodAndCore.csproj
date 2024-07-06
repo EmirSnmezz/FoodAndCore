@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Models\NewFolder\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Views\" />
   </ItemGroup>
