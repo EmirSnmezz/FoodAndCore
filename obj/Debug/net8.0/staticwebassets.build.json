@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "dHRb5MP3zTv09ooiW/05goxMw8Grf2Vn3gfQneKIRPQ=",
+  "Source": "FoodAndCore",
+  "BasePath": "_content/FoodAndCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FoodAndCore\\wwwroot",
+      "Source": "FoodAndCore",
+      "ContentRoot": "C:\\Users\\emirc\\source\\repos\\FoodAndCore\\FoodAndCore\\wwwroot\\",
+      "BasePath": "_content/FoodAndCore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
