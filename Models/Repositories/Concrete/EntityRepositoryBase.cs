@@ -24,6 +24,7 @@ namespace FoodAndCore.Models.Generic_Repository.Concrete
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity), Messages.AddErrorMessage);
             _context.Add(entity);
+            _context.SaveChanges();
             return new SuccessResult(Messages.AddSuccessMessage);
         }
 
@@ -33,6 +34,7 @@ namespace FoodAndCore.Models.Generic_Repository.Concrete
 
             var result = _context.Set<T>().Find(id);
             _context.Remove(result);
+            _context.SaveChanges();
 
             return new SuccessResult(Messages.DeleteSuccessMessage);
         }
@@ -69,6 +71,7 @@ namespace FoodAndCore.Models.Generic_Repository.Concrete
             }
 
             _context.Set<T>().Update(entity);
+            _context.SaveChanges();
 
             return new SuccessResult(Messages.UpdateSuccessMessage);
         }
