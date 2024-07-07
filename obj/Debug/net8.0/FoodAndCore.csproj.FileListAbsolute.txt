@@ -131,3 +131,5 @@ C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\refint\Food
 C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\FoodAndCore.pdb
 C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\FoodAndCore.genruntimeconfig.cache
 C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\ref\FoodAndCore.dll
+C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\FoodAndCore.RazorAssemblyInfo.cache
+C:\Users\emirc\source\repos\FoodAndCore\FoodAndCore\obj\Debug\net8.0\FoodAndCore.RazorAssemblyInfo.cs
