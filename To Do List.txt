@@ -1,0 +1,17 @@
+Generic Repository yapýsý result yapýsýný içerecek þekilde kodlanýp dizayn edilip çalýþýr hale gelecek. ()
+
+route config ayarlamalarý ve controller ve viewlar hazýrlanacak Temel crud iþlemleri gerçekleþtirilebilir düzeye getirilecek, Validation iþlemleri yapýlacak, Pagging özelliði eklenecek ()
+
+Google chart eklenecek()
+
+Google Chart'lar dynamic hale getirilecek()
+
+Login formu ve admin controller oluþturularak authentication özelliði uygulamaya kazandýrýlacak()
+
+Logout iþlemi gerçekleþtirilecek oturum sonlandýrýlacak()
+
+vitrin ve admin temalarý giydirilerek kullanýcý dostu iki farklý UI oluþturulacak()
+
+ViewComponentler oluþturularak viewlara entegre edilecek()
+
+Arama ve filtreleme özellikleri uygulamaya kazandýrýlacak ()

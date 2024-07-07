@@ -8,6 +8,6 @@ namespace FoodAndCore.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer("Data Source=EMIRSNMEZ;Initial Catalog=FoodAndCoreDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
 
         public DbSet<Food> Foods {get; set;}
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }             
     }
 }
