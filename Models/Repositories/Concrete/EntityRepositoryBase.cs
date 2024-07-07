@@ -39,28 +39,10 @@ namespace FoodAndCore.Models.Generic_Repository.Concrete
             return new SuccessResult(Messages.DeleteSuccessMessage);
         }
 
-        public IDataResult<List<T>> GetAll(Expression<Func<T, bool>> filter = null)
+        public IDataResult<List<T>> GetAll()
         {
-           if(filter == null)
-            {
-                var result = _context.Set<T>().ToList();
-                if(result == null)
-                {
-                    return new ErrorDataResult<List<T>>( result, Messages.GetErrorMessage);
-                }
-                return new SuccessDataResult<List<T>>(result, Messages.GetSuccessMessage);
-            }
-
-           else
-            {
-                var result =  _context.Set<T>().Where(filter).ToList();
-
-                if (result == null)
-                {
-                    return new ErrorDataResult<List<T>>(result, Messages.GetErrorMessage);
-                }
-                return new SuccessDataResult<List<T>>(result, Messages.GetSuccessMessage);
-            }
+            var result = _context.Set<T>().ToList();
+            return new SuccessDataResult<List<T>>(result);
         }
 
         public Core.Utilities.Abstract.Result.IResult Update(T entity)

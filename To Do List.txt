@@ -1,17 +1,17 @@
-Generic Repository yapısı result yapısını içerecek şekilde kodlanıp dizayn edilip çalışır hale gelecek. ()
+ï»¿Generic Repository yapÄ±sÄ± result yapÄ±sÄ±nÄ± iÃ§erecek ÅŸekilde kodlanÄ±p dizayn edilip Ã§alÄ±ÅŸÄ±r hale gelecek. (âœ“)
 
-route config ayarlamaları ve controller ve viewlar hazırlanacak Temel crud işlemleri gerçekleştirilebilir düzeye getirilecek, Validation işlemleri yapılacak, Pagging özelliği eklenecek ()
+route config ayarlamalarÄ± ve controller ve viewlar hazÄ±rlanacak Temel crud iÅŸlemleri gerÃ§ekleÅŸtirilebilir dÃ¼zeye getirilecek, Validation iÅŸlemleri yapÄ±lacak, Pagging Ã¶zelliÄŸi eklenecek ()
 
 Google chart eklenecek()
 
 Google Chart'lar dynamic hale getirilecek()
 
-Login formu ve admin controller oluşturularak authentication özelliği uygulamaya kazandırılacak()
+Login formu ve admin controller oluÅŸturularak authentication Ã¶zelliÄŸi uygulamaya kazandÄ±rÄ±lacak()
 
-Logout işlemi gerçekleştirilecek oturum sonlandırılacak()
+Logout iÅŸlemi gerÃ§ekleÅŸtirilecek oturum sonlandÄ±rÄ±lacak()
 
-vitrin ve admin temaları giydirilerek kullanıcı dostu iki farklı UI oluşturulacak()
+vitrin ve admin temalarÄ± giydirilerek kullanÄ±cÄ± dostu iki farklÄ± UI oluÅŸturulacak()
 
-ViewComponentler oluşturularak viewlara entegre edilecek()
+ViewComponentler oluÅŸturularak viewlara entegre edilecek()
 
-Arama ve filtreleme özellikleri uygulamaya kazandırılacak ()
+Arama ve filtreleme Ã¶zellikleri uygulamaya kazandÄ±rÄ±lacak ()

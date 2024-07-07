@@ -10,6 +10,6 @@ namespace FoodAndCore.Models.Generic_Repository.Abstract
         public Core.Utilities.Abstract.Result.IResult Add(T entity);
         public Core.Utilities.Abstract.Result.IResult Update(T entity);
         public Core.Utilities.Abstract.Result.IResult Delete (int id);
-        public IDataResult<List<T>> GetAll(Expression<Func<T, bool>> filter = null);
+        public IDataResult<List<T>> GetAll();
     }
 }
